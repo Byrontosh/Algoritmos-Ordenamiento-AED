@@ -1,9 +1,20 @@
 
+
+
+
+'''
+	Esta es una función para imprimir los arreglos
+'''
 def imprimir_Arreglo(arreglo):
 
   for i in range(len(arreglo)):
     print(f' [{arreglo[i]}]',end="")
 
+
+
+'''
+	Esta es una función para el algoritmos de la burbuja
+'''
 def algoritmo_Burbuja(arreglo):
   for i in range(len(arreglo)-1):
     for j in range(len(arreglo)-1-i):
@@ -12,7 +23,9 @@ def algoritmo_Burbuja(arreglo):
         arreglo[j]=arreglo[j+1]
         arreglo[j+1]=aux
 
-
+'''
+	Esta es una sección para pruebas
+'''
 
 listaSueldos=[20.8,150.5,170.5,180.8,190,30,75.6,200]
 print("Lista de sueldos sin ordenar\n\n")
